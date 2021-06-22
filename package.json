@@ -1,0 +1,25 @@
+{
+  "name": "carnivalassignment",
+  "version": "1.0.0",
+  "description": "creating package.json",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "keywords": [
+    "carnival",
+    "package"
+  ],
+  "author": "Tyler Lebovic",
+  "license": "ISC",
+  "dependencies": {
+    "chrome": "^0.1.0",
+    "chromedriver": "^91.0.1",
+    "mocha": "^9.0.1",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  }
+}
