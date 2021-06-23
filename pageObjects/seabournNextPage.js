@@ -7,11 +7,13 @@ let nextPage = function(){
     }
 
     this.validate = function(url){
+        //validate unique message on page
         const header = element(by.className('home-hero-header'));
         expect(header.getText()).toBe('GET SET FOR AN ULTRA-LUXURY EXPEDITION EXPERIENCE LIKE NO OTHER. AUTHENTIC. PERSONALIZED. MEMORABLE.');
         
         browser.sleep(1000);
         
+        //validate 'plan your cruise' button
         const planCruise = element(by.className('bg-sv-orange'));
         expect(planCruise.getText()).toBe('Plan Your Cruise');
     }

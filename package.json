@@ -18,8 +18,15 @@
   "dependencies": {
     "chrome": "^0.1.0",
     "chromedriver": "^91.0.1",
+    "gulp-cli": "^2.3.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-protractor": "^4.1.1",
     "mocha": "^9.0.1",
     "protractor": "^7.0.0",
-    "selenium-webdriver": "^4.0.0-beta.4"
+    "selenium-webdriver": "^4.0.0-beta.4",
+    "tether": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
